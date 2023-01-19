@@ -1,0 +1,84 @@
+body {
+  background-image:url("Cafe.jpg");
+  color: rgb(255, 255, 255) ;
+}
+.text{
+  position:relative;
+  left:350px;width: 800px;
+  align-items: center;
+  
+}
+header {
+  background-color: rgb(37, 40, 61) ;
+  width: 100%;
+}
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+h2{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  text-align: center;
+}
+nav {
+  background-color: #e9c87d;
+}
+main {
+  text-align: left;
+  font-size: small;
+  border: 5px rgb(123, 78, 10);
+  padding: 10px;
+}
+#menubody{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+footer{
+  background-color: rgba(106, 61, 3, 0.866);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  
+}
+#comment{
+  position: relative;
+  left:0px;
+}
+#image{
+  position:absolute;
+  left:0px;top:0px;
+}
+#signin{
+  position: absolute;
+  text-align: left;
+  left:0px;
+  top:100px;
+  width: 320px;}
+.signin{
+  position: absolute;
+  left:50px;
+  top:100px;
+  text-align: left;
+  width: 310px;
+  color: rgb(145, 214, 168);
+}
+#jobs{
+  color: black;
+}
+li{
+  color: black;
+  text-decoration: solid;
+  font-weight: 500;
+}
+h3{
+  text-shadow: 10px;
+  color: black;
+  font-weight: 900;
+}
