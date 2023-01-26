@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Projects</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a class="active" href="projects.html">Projects</a>
+    <a href="certificates.html">Certifications</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+  </div>
+
+<div>
+<center>
+<h1 class="subtitle1"> My Projects </h1>
+</center>
+</div> 
+
+<div id="portfolio">
+<div class="container3">
+
+<div class ="projects">
+<div class="project">
+<img src="COP26.jpeg" alt="Climate Change Prediction for COP 27 UN Conference" height="auto" width="80px">
+<div class ="layer">
+<h3 style="font: size 15px; font-weight:20000">Climate Change Prediction using Machine Learning</b></h3>
+<p>Predicted a >2° change in temperature difference which does not align with the COP26 Regulations and pointed out the repercussions to our ecosystem.</p>
+<a href="https://github.com/SakethSai31/global-temp-change"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><br><br>
+</div>
+</div>
+<div class="project" >
+<img src="stocks.jpeg" alt="Stock Market Price Prediction using Forecasting" height="120px" width="80px">
+<div class ="layer">
+<h3 style="font-size:15px; font-weight:20000">Stock Market Price Prediction using Forecasting</h3>
+<p>Extracted real time stock price data and performed Exploratory Data Analysis using pandas to analyze trend in stock prices of 3 organizations.</p>
+<a href="https://github.com/SakethSai31/Time-Series-Forecasting"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><br><br>
+</div>
+</div>
+<div class="project" >
+  <img src="medapp.jpg" alt="Performance Measurement Application for Universities" height="120px" width="80px">
+  <div class ="layer">
+  <h3 style="font-size:15px; font-weight:20000">Performance Measurement Application for Universities</h3>
+  <p>Created a performance measurement solution enabling educational institutions to measure quality of education by tracking jobs and promotions of graduates over a 5-year period.</p>
+  <a href="https://github.com/SakethSai31/University-Performance-Modelling"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><br><br>
+  </div>
+  </div>
+  <div class="project" >
+    <img src="ThunderStorm-2.jpg" alt="Big Data Pipeline for Weather Forecasting" height="120px" width="80px">
+    <div class ="layer">
+    <h3 style="font-size:15px; font-weight:20000">Big Data Pipeline for Weather Forecasting</h3>
+    <p>Developed a data pipeline workflow to ingest storm and weather data from AWS S3 buckets to Google storage buckets and transform it to required format using Google BigQuery.</p>
+    <a href="https://github.com/SakethSai31/SEVIRStorm-DataVisualizations"><i class="fa-solid fa-arrow-up-right-from-square"></i></a><br><br>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</body>
+</html>

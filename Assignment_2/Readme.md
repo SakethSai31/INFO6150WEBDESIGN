@@ -53,3 +53,5 @@ The contact page contains all the information that can be used to contact me.
 <b>Table Header:</b> The `<thead>` used to group the header content in a table. <br>
 <b>Table Row:</b> The `<tr>` used to define a row in the table.<br>
 <b>Table Data:</b> The `<td>` used to define the table data.
+
+This project was created by Saketh Vootla (NUID: 001568984)

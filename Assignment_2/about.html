@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav"> 
+  <a href="home.html">Home</a>
+  <a class="active" href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="certificates.html">Certifications</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</div>
+
+
+
+<div id="about">
+<div class="container">
+<div class="row">
+
+<div class="about-col-1">
+<img src="About1.jpg" ></div>
+
+<div class="about-col-2">
+<h2 class ="subtitle">About Me</h2>
+<p> I have a background in software engineering and data management. I began my professional career with Vodafone as a Software Data Engineer, where I gained experience in designing and implementing ETL pipelines, working with SAP systems, and migrating data to cloud platforms. <br><br> I am currently enrolled in a Master's program in Information Systems at Northeastern University. In this program, I am honing my skills in creating RESTful API applications, maintaining them, and deploying them in a cloud-native environment.</p> 
+
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('education')">Education</p>
+<p class="tab-links" onclick="opentab('experience')">Work Experience</p>
+<p class="tab-links" onclick="opentab('skills')">Skills</p>
+</div>
+
+<div class="tab-contents active-tab" id="education">
+  <table>
+    <thead>
+      <tr>
+        <th>University</th>
+        <th>Degree</th>
+        <th>G.P.A</th>
+        <th>Graduation year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Northeastern University</td>
+        <td>M.S Information Systems</td>
+        <td> 3.7 </td>
+        <td> 2023 </td>
+      </tr>
+      <tr>
+        <td>SRM University</td>
+        <td>B.Tech Electronics and Communication</td>
+        <td> 3.4 </td>
+        <td> 2017 </td>
+      </tr>
+    </tbody>
+  </table>  
+</div>
+
+<div class="tab-contents" id="experience">
+<ul>
+<li><span>Aug 2017 - Feb 2020</span><br>Software Development Engineer at Vodafone Shared Services</li><br>
+
+<span>
+
+    <ul>
+      <li>Implemented large-scale data warehouse with data from over 10 sources, 1 TB data storage with an average query response time of 1 sec. Generated 500 insights/ day leveraging GCP, resulting in improved decision making</li>
+      <li>Reduced response time by 36% through the implementation of efficient NLP techniques and data management strategies resulting in enhanced user experience and improved service delivery</li>
+      <li>Successfully architected and executed a migration strategy of 15 TB of transactional data from an on-premises system to GCP Cloud Bigtable, completing the migration in 5 days while maintaining 99.89% data completeness</li>
+    </ul>
+
+</span>
+</ul>
+</div>
+
+<div class="tab-contents" id="skills">
+<ul>
+<li><span>Programming language</span><br>Python, R, Java, C++, SQL, Linux, Unix</li>
+<li><span>Database/Storage</span><br> MYSQL, Oracle, MongoDB, Hive, MySQL, Redshift, PostgresSQL, RDS, NoSQL</li>
+<li><span>Cloud Technologies</span><br><b>AWS</b> (EC2, SES, DNS, RDS, Lambda, Cloudformation, API Gateway, IAM, CloudWatch),<br> <b>GCP</b> (Big Query, Data Studio, Dataflow, DataLab, Cloud Functions, Pub/ Sub, Composer)</li>
+<li><span>Tools/Platforms</span><br>MS Excel, Power BI, Postman, Tableau, Git, CI/CD, Airflow, Docker, JIRA, Kubernetes</li>
+<li><span>Concepts</span><br>Data Modelling, DevOps, Statistical Analysis, Machine Learning, Software Development</li><br>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links"); 
+var tabcontents = document.getElementsByClassName("tab-contents");
+ 
+function opentab(tabname){
+
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+
+event.currentTarget.classList.add("active-link")
+document.getElementById(tabname).classList.add("active-tab");
+}
+ 
+</script>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</body>
+</html>
