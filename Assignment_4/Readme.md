@@ -4,7 +4,7 @@
 ### Webpage - Form.html
 
 I have used javascript for front end validations, dynamically add user entered data to the table and for hiding and showing fields.<br>
-<b>HTML<b> tags used:<br>
+<b>HTML</b> tags used:<br>
 <b>HTML:</b> The `<html>` tag is the root of the HTML page. It contains all the other HTML tags in it.<br>
 <b>Head:</b> The `<head>` tag defines the header of the webpage.<br>
 <b>Title:</b> The `<title>` tag defines the title of the webpage.<br>
