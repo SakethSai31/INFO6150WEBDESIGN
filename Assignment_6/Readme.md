@@ -1,17 +1,17 @@
 
 ## Assignment 6
 
-### Calculator and Stop Watch
+### Calculator and Stop-Watch
 
 There are 2 different webpages and javascripts used to create a Calculator web application which requires a login and predefined validations such as `Valid Email` , `Valid Password`, `Valid Username`.<br>
 The Calculator application has 3 fields 2 editable and 1 for the result field.<br>
-Used Switch and Case statements and defined the Arrow functions for the Arithmetic operations such as `addition` , `subtraction`, `multiplication`, `Division` 
+Used Switch and Case statements and defined the Arrow functions for the Arithmetic operations such as `addition` , `subtraction`, `multiplication`, `Division`<br>
 
 
-The second web application is a basic stop-watch with 3 buttons in it:
+The second web application is a basic stop-watch with 3 buttons in it:<br>
 `Start`, `Stop`, `Reset`
 
-I have used javascript, HTML and CSS for building the application.
+I have used javascript, HTML and CSS for building the application.<br>
 
 Tags used 
 1. `html` - The <html> tag is the root of the HTML page. It contains all the other HTML tags in it.
@@ -26,8 +26,6 @@ Tags used
 10. `a` - The <a> tag is used to link pages with the current page
 11. `p` - The <p> tag is used tp define the paragraph 
 12. `button` - The <button> tag defines a clickable button - Submit and reset
-
-
 
 ### Javascript Functions used
 
