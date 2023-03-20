@@ -10,16 +10,16 @@ This project is build to mimic an actual pizza restaurant website with features 
     - home-bg.jpg
     - menu-bg.jpg
     - CSS
-    - style.css
-    - style.css.map
+        - style.css
+        - style.css.map
     - SCSS
-  - base
-    - _functions.scss
-    - _mixins.scss
-    - _variables.scss
-  - components
-    - _buttons.scss
-  - styles.scss
+      - base
+        - _functions.scss
+        - _mixins.scss
+        - _variables.scss
+      - components
+        - _buttons.scss
+      - styles.scss
 
 ## SASS Features used: 
 
