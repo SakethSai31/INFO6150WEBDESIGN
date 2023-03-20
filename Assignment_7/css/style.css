@@ -1,0 +1,267 @@
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  background-color: red;
+  color: blue;
+}
+
+.logo {
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+}
+.navigation li {
+  margin-right: 3px;
+}
+.navigation li a {
+  color: white;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 4px;
+  border: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+:root {
+  --border-radius: 10px;
+}
+
+#button1 {
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 3px;
+  border: 2px;
+}
+
+.button {
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 4px;
+  border: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+:root {
+  --border-radius: 10px;
+}
+
+#button1 {
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 3px;
+  border: 2px;
+}
+
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Times New Roman", Georgia, Serif;
+  letter-spacing: 7px;
+}
+
+.top-right1 {
+  position: absolute;
+  top: 350px;
+  right: 200px;
+  color: white;
+}
+
+.top-right2 {
+  position: absolute;
+  top: 430px;
+  left: 750px;
+}
+
+.top-right3 {
+  position: absolute;
+  top: 500px;
+  left: 950px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: font-size-h1px;
+}
+
+h3 {
+  font-size: font-size-h2px;
+}
+
+h4 {
+  font-size: calculate-size(15px, 1.1);
+  letter-spacing: 3px;
+}
+
+h5 {
+  font-size: calculate-size(17px, 1.1);
+  letter-spacing: 3px;
+}
+
+.button {
+  border-radius: var(--border-radius);
+}
+
+.back {
+  background-color: #ffe6e6;
+}
+
+.h5 {
+  font-size: 5px;
+  letter-spacing: 3px;
+}
+
+hr.new1 {
+  border: 2px solid black;
+}
+
+#button1 {
+  letter-spacing: 3px;
+  margin-left: 30px;
+  border: 2px solid black;
+  width: 120px;
+  font-size: 13px;
+  margin: 3px 5px;
+}
+
+img {
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+#col2 {
+  margin: 0 190px;
+}
+
+body {
+  background-image: url("menu-bg.jpg");
+}
+ */
+
+ body {font-family: "Times New Roman", Georgia, Serif;}
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Play-fair Display";
+   letter-spacing: 5px;
+ }
+ .top-right1 {
+   position: absolute;
+   top: 350px;
+   right: 200px;
+ }
+ .top-right2 {
+   position: absolute;
+   top: 430px;
+   left: 750px;
+ }
+ .top-right3 {
+   position: absolute;
+   top: 500px;
+   left: 950px;
+ }
+ .container {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+ .container2 {
+   position: relative;
+   text-align: center;
+ }
+ h1 {
+   font-size: 50px;
+ }
+ h3 {
+   font-size: 30px;
+ }
+ h4 {
+   font-size: 15px;
+   letter-spacing: 1px;
+ }
+ h5 {
+   font-size: 17px;
+   letter-spacing: 1px;
+ }
+ 
+ .button {
+   font-family: "Times New Roman", Georgia, Serif;
+   letter-spacing: 4px;
+   border: 2px;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 12px;
+   
+ }
+ 
+ 
+ .back
+ {
+    background-color:#ffe6e6;
+ }
+ .h5
+ {
+ font-size:5px;
+ letter-spacing: 1px;
+ 
+ }
+ hr.new1
+ {
+   border: 2px solid black;
+ }
+ #button1 {
+   font-family: "Times New Roman", Georgia, Serif;
+   letter-spacing: 3px;
+   border: 2px;
+   padding: 5px 5px;
+   text-align: center;
+   display: inline-block;
+   font-size: 13px;
+   margin: 3px 5px;
+   Margin-left:30px;
+   cursor: pointer;
+   border-radius: 12px;
+   border: 2px solid black;
+   Width:120px;
+   
+ }
+
+/*# sourceMappingURL=style.css.map */
+

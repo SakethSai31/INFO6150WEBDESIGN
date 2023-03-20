@@ -1,0 +1,36 @@
+// Import variables
+@import "../base/variables";
+
+// Header styles
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-medium;
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.logo {
+  font-size: $font-size-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+
+  li {
+    margin-right: $spacing-medium;
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+

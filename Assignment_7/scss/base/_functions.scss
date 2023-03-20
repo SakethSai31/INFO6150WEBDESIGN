@@ -1,0 +1,9 @@
+$color: black;
+
+@function set-background($color){
+   @if(lightness($color) >70){
+    @return blue;} 
+    @else{
+      @return #ffe6e6;
+    }
+  }
